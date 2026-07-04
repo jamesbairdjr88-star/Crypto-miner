@@ -1,0 +1,28 @@
+{
+  "miner": {
+    "coin": "bitcoin",
+    "algorithm": "sha256",
+    "difficulty": 2,
+    "workers": 4,
+    "maxAttempts": 1000000
+  },
+  "pool": {
+    "enabled": true,
+    "url": "stratum+tcp://pool.example.com:3333",
+    "timeout": 30000
+  },
+  "wallet": {
+    "address": "1A1z7agoat8Bt16ySrCXn8Ki3crVDibtV",
+    "poolUser": "username.worker1",
+    "poolPassword": "password"
+  },
+  "api": {
+    "enabled": true,
+    "port": 3000,
+    "host": "localhost"
+  },
+  "logging": {
+    "level": "info",
+    "file": "miner.log"
+  }
+}
